@@ -1,8 +1,88 @@
 <html>
     <head>
-        <title>Hello World</title>
+        <title>Moses Mok</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        Hello world!
+
+        <h1>Moses Mok 莫晉曦</h1>
+
+        <p>Hello! Here are some things I've done.</p>
+
+        <ul>
+            <li>
+                <p><a href="https://keroppimomo.github.io/tripos-notes/"><b>Tripos notes</b></a> (Mar 2024 &ndash; present).
+                I study mathematics at the University of Cambridge.
+                These are notes I made for revision and quick reference,
+                and I publish them in the hope that someone would find them useful.</p>
+
+                <p>Since my original notes are written in Markdown,
+                I also wrote some Python code to convert them to HTML webpages.
+                You can find it on the <a href="https://github.com/KeroppiMomo/tripos-notes">GitHub repo</a>.</p>
+            </li>
+
+            <li>
+                <p><a href="https://github.com/KeroppiMomo/calsimtor"><b>Calsimtor</b></a> (May 2023 &ndash; Jul 2023).
+                This was my attempt to reverse engineer the programming language of the CASIO fx-50FH II calculator, which is commonly used by Hong Kong school students.</p>
+
+                <p>I developed a lexer to represent calculator programs with plain ASCII code
+                and a simulator to evaluate mathematical expressions in COMP mode.
+                However I have not completely worked out the program interpreter.
+                I also documented intriguing behaviours of the calculator <a href="https://github.com/KeroppiMomo/calsimtor/blob/main/DOC.md">in the repo</a>.</p>
+            </li>
+
+            <li>
+                <p><a href="https://github.com/KeroppiMomo/mathboard"><b>Mathboard</b></a> (Mar 2022 &ndash; Jul 2022).
+                From my personal experience of writing mathematics on digital tablets,
+                I find it annoying to adjust symbols' positions manually in order to modify mathematical expressions.
+                Therefore I built this prototype to demonstrate using mathematics handwriting recognition to create a non-obstructive digital notetaking experience.</p>
+
+                <p>Taking advantage of the <a href="https://developer.myscript.com/">MyScript iink SDK</a>,
+                this web-based application is able to recognise semantic structures in handwriting,
+                which then allows it to tidy up symbols' positions after the user deletes existing handwriting.
+                This creates a seamless experience in editing handwritten mathematics with minimal manual adjustments.
+            </li>
+
+            <li>
+                <p><a href="https://github.com/KeroppiMomo/crappy-among-us"><b>Crappy Among Us</b></a> (Jan 2021 &ndash; Mar 2021).
+                To take a glimpse of multiplayer game development,
+                I made a bad knock-off of the multiplayer game <a href="https://www.innersloth.com/games/among-us/">Among Us</a>.</p>
+
+                <p>The game makes use of <a href="https://p5js.org/">p5.js</a> for front-end rendering and WebSocket for client-server communication.
+                Although the game is unfinished, I had rewarding experience in designing a UI framework.</p>
+            </li>
+            <li>
+                <p><a href="https://github.com/KeroppiMomo/MyTouchBar"><b>MyTouchBar</b></a> (May 2020 &ndash; Jan 2021).
+                To fully customise the Touch Bar on my MacBook Pro,
+                I took inspiration from <a href="https://folivora.ai/">BetterTouchTool</a> and <a href="https://github.com/Toxblh/MTMR">MTMR</a>
+                and built this MacOS application as a personal project.
+                Features include swipe gestures, Zoom meeting control, and weather information from the Hong Kong Observatory API.
+            </li>
+            <li>
+                <p><a href="https://github.com/KeroppiMomo/Schooler"><b>Schooler</b></a> (Mar 2020 &ndash; Dec 2020).
+                It is an iOS and Android app aimed to help school students easily manage their calendar, timetable, assignments and reminders.</p>
+                
+                <p>The main challenge of this project was that the app was written primarily in Flutter, a cross-platform framework,
+                but there were quite some platform-specific code in Swift and Kotlin to support background code execution and geofencing.</p>
+            </li>
+            <li>
+                <p><a href="https://github.com/KeroppiMomo/MoSticker"><b>MoSticker</b></a> (Nov 2018 &ndash; Feb 2019).
+                This is an iOS app to create, manage and share WhatsApp stickers.
+                Users can use built-in tools to process images and export them to WhatsApp as sticker packs.
+                They also have an option to log in and publish their sticker packs for others to download.</p>
+            </li>
+        </ul>
+
+        <p>You can find out more on my <a href="https://github.com/KeroppiMomo">GitHub profile</a>.</p>
+
+        <p>Please contact me via my email <a href="mailto:mokch.moses@gmail.com">mokch.moses@gmail.com</a>.</p>
+
+        <p>© 2024 Moses Mok</p>
+
+        <div style="text-align: center">
+            <img id="frog" src="frog.jpg" alt="A wild Keroppi appeared" width="200">
+            <br>
+            <caption><i>Figure 1.</i> A Keroppi on my hand.</caption>
+        </div>
     </body>
 </html>
